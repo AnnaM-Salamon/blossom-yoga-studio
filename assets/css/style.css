@@ -21,3 +21,16 @@ h1, h2 {
 font-size: 300%;
 float: left;
 }
+/* navigation menu */
+
+#menu ul {
+    float: right;
+     font-size: 110%;
+     margin-right: 30px;
+}
+#menu li {
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+}
+   
