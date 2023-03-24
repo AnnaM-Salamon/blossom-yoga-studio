@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Edu+NSW+ACT+Foundation&');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+NSW+ACT+Foundation&');
 * {
     margin: 0;
     padding: 0;
@@ -7,5 +7,17 @@
 body {
     font-family: 'Edu NSW ACT Foundation', sans-serif;
     font-weight: 400;
-   
+    color: #003333;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: 'Dancing Script', sans-serif;
+    word-spacing: 5px; 
+    color: #262C43;
+}
+#logo {
+font-size: 300%;
+float: left;
 }
