@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+NSW+ACT+Foundation&');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
+
 body {
     font-family: 'Edu NSW ACT Foundation', sans-serif;
     font-weight: 400;
     color: #003333;
-    background-color:#FBF4D7;
-    background-image:linear-gradient(#f2f4c2, rgb(255, 255, 255))
-
-    
+    background-color: #FBF4D7;
+    background-image: linear-gradient(#f2f4c2, rgb(255, 255, 255))
 }
 
 /* headings and logo */
@@ -19,93 +19,139 @@ body {
 h1 {
     font-family: 'Dancing Script', sans-serif;
     font-weight: 600;
-    word-spacing: 5px; 
+    word-spacing: 5px;
     color: #262C43;
 }
+
 #logo {
-font-size: 300%;
-float: left;
-margin-left: 30px;
+    font-size: 300%;
+    float: left;
+    margin-left: 30px;
 
 }
+
 /* navigation menu */
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
-   
+
 
 }
 
 #menu ul {
-     float: right;
-     font-size: 110%;
-     margin-right: 30px;
+    float: right;
+    font-size: 110%;
+    margin-right: 30px;
 }
+
 #menu li {
-    display:inline ;
+    display: inline;
     list-style-type: none;
     padding: 10px;
 }
+
 #menu a {
     text-decoration: none;
     color: inherit;
 }
-   #menu a:visited {
-color: #075A4D;
-   }
-   #menu a:hover {
-color: #FEB1C8;
-   }
-   #menu a:active {
-color: red;
-   }
 
-   /* hero image */
+#menu a:visited {
+    color: #075A4D;
+}
+
+#menu a:hover {
+    color: #FEB1C8;
+}
+
+#menu a:active {
+    color: red;
+}
+
+/* hero image */
 
 
 
-   #hero-outer {
+#hero-outer {
     width: 100%;
-   height: 600px;
-   overflow: hidden;
-   position: relative;
-   }
-
-   /* text over hero image */
-
-   /* text over hero image */
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
 
 
-   #text-insert {
+
+/* text over hero image */
+
+
+#text-insert {
     position: absolute;
     top: 70px;
     left: 300px;
     font-size: 120%;
     font-weight: 100;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     width: auto;
-   }
+}
 
-   #hero-image {
+#hero-image {
     width: 100%;
     height: 600px;
-     background: url('../images/PINK-1625980953551-50502b3b8b2f.webp') no-repeat center center;
+    background: url('../images/PINK-1625980953551-50502b3b8b2f.webp') no-repeat center center;
     background-size: cover;
-   
-  
 
-/* zoom animation when loading page */
-animation-name: image-zoom;
-animation-duration: 5s;
-animation-fill-mode: forwards;
-   }
 
-   /* zoom for hero image */
 
-   @keyframes image-zoom {
-from { transform: scale(1);
+    /* zoom animation when loading page */
+    animation-name: image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* zoom for hero image */
+
+@keyframes image-zoom {
+    from {
+        transform: scale(1);
+
+    }
+
+    to {
+        transform: scale(1.3);
+
+    }
+}
+
+
+/* main content */
+#benefits {
+    margin: 50px;
+    margin-top: 50px;
+    height: 200px;
+    width: fit-content;
+    text-align: left;
+    padding: 10px;
+
+    border-bottom: 1px solid #003333;
+}
+
+#benefits h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 150%;
+}
+
+#benefits p {
+    line-height: 2;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 120%;
+    word-spacing: 2px;
+    padding: 20px;
+}
+
+#content {
+    height: 800px;
+    margin-top: 100px;
 
 }
-to { transform: scale(1.3);
-
-}
-   }
