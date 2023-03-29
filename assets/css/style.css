@@ -72,12 +72,26 @@ color: red;
 
    /* text over hero image */
 
+   /* text over hero image */
+
+
+   #text-insert {
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    font-size: 120%;
+    font-weight: 100;
+    color:rgb(255, 255, 255);
+    width: auto;
+   }
 
    #hero-image {
     width: 100%;
     height: 600px;
      background: url('../images/PINK-1625980953551-50502b3b8b2f.webp') no-repeat center center;
     background-size: cover;
+   
+  
 
 /* zoom animation when loading page */
 animation-name: image-zoom;
