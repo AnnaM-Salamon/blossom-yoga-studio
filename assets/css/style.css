@@ -159,55 +159,84 @@ h1 {
 /* about us */
 
 
-#about-us{
-    
+#about-us {
+
     width: 40%;
     height: 500px;
     float: left;
     padding: 10px;
     margin: 20px;
     border-left: #003333 1px solid;
-  
-   }
-   #about-us p {
-      line-height: 1.8;
-      font-size: 120%;
-      font-weight: 600;
-      word-spacing: 2px;
-      padding: 20px;
 
-   }
-   #about-us h2 {
-      font-weight: 900;
-      text-transform: uppercase;
-      text-decoration: underline;
-      font-size: 150%;
-   }
- 
+}
 
-  /* classes */
+#about-us p {
+    line-height: 1.8;
+    font-size: 120%;
+    font-weight: 600;
+    word-spacing: 2px;
+    padding: 20px;
 
-  #classes {
-     
+}
+
+#about-us h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 150%;
+}
+
+
+/* classes */
+
+#classes {
+
     width: 40%;
     height: 500px;
     float: right;
     padding: 10px;
     margin: 20px;
-   
- }
- #classes p {
+
+}
+
+#classes p {
     line-height: 1.5;
     font-size: 120%;
-   letter-spacing: 1px;
+    letter-spacing: 1px;
     word-spacing: 2px;
     padding: 20px;
     border-left: #003333 1px solid;
- }
- #classes h2 {
+}
+
+#classes h2 {
     font-weight: 900;
     text-transform: uppercase;
     text-decoration: underline;
     font-size: 150%;
- }
+}
 
+/* footer */
+
+
+#footer {
+    height: 100px;
+    padding: 10px;
+    background-color: #FBF4D7;
+    height: fit-content;
+    text-align: center;
+
+
+}
+
+
+#footer a {
+    font-size: 100%;
+    margin: 1%;
+    padding: 5%;
+    color: #262C43;
+}
+
+#address {
+    text-align: left;
+    font-size: 120%;
+}
