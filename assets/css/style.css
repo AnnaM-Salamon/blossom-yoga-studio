@@ -185,4 +185,29 @@ h1 {
    }
  
 
-  
+  /* classes */
+
+  #classes {
+     
+    width: 40%;
+    height: 500px;
+    float: right;
+    padding: 10px;
+    margin: 20px;
+   
+ }
+ #classes p {
+    line-height: 1.5;
+    font-size: 120%;
+   letter-spacing: 1px;
+    word-spacing: 2px;
+    padding: 20px;
+    border-left: #003333 1px solid;
+ }
+ #classes h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 150%;
+ }
+
