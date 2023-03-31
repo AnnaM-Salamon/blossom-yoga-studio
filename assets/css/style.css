@@ -10,6 +10,7 @@ body {
     font-family: 'Edu NSW ACT Foundation', sans-serif;
     font-weight: 400;
     color: #003333;
+
     background-color: #FBF4D7;
     background-image: linear-gradient(#f2f4c2, rgb(255, 255, 255))
 }
@@ -142,6 +143,7 @@ h1 {
 }
 
 #benefits p {
+
     line-height: 2;
     letter-spacing: 1px;
     font-weight: 600;
@@ -150,14 +152,15 @@ h1 {
     padding: 20px;
 }
 
-#content {
-    height: 800px;
-    margin-top: 100px;
 
-}
+
 
 /* about us */
 
+#content {
+    margin: 100px;
+    height: 800px;
+}
 
 #about-us {
 
@@ -194,7 +197,7 @@ h1 {
     width: 40%;
     height: 500px;
     float: right;
-    padding: 10px;
+    padding-bottom: 50px;
     margin: 20px;
 
 }
@@ -219,10 +222,11 @@ h1 {
 
 
 #footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
     height: 100px;
-    padding: 10px;
-    background-color: #FBF4D7;
-    height: fit-content;
+     background-color: #fbccda;
     text-align: center;
 
 
@@ -230,6 +234,7 @@ h1 {
 
 
 #footer a {
+
     font-size: 100%;
     margin: 1%;
     padding: 5%;
@@ -237,6 +242,212 @@ h1 {
 }
 
 #address {
-    text-align: left;
+    position: absolute;
+    left: 20px;
     font-size: 120%;
+}
+
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #text-insert {
+        padding-right: 20px;
+        margin-right: 50px;
+        float: left;
+
+    }
+
+    #content {
+        margin: 0% auto;
+        padding: 0%;
+        width: auto;
+        height: fit-content s
+    }
+
+
+    #benefits {
+        width: 65%;
+        height: fit-content;
+        float: right;
+        margin: 0 auto;
+
+    }
+
+    #about-us {
+        margin: 0% auto;
+        width: 65%;
+        padding-bottom: 30px;
+    }
+
+    #classes {
+        width: 75%;
+        clear: left;
+        padding-bottom: 150px;
+
+    }
+
+    #classes p {
+        padding-bottom: 50%;
+    }
+
+    #footer {
+        position: fixed;
+        bottom: 0;
+        height: fit-content;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+
+    #text-insert {
+        padding-right: 20px;
+        margin: 0 autox;
+        float: left;
+
+    }
+
+    #content {
+        margin: 0% auto;
+        padding: 0%;
+        width: auto;
+        height: fit-content s
+    }
+
+
+    #benefits {
+        width: 75%;
+        height: fit-content;
+        float: right;
+        margin: 0 auto;
+
+    }
+
+    #about-us {
+        margin: 0% auto;
+        width: 75%;
+        padding-bottom: 30px;
+    }
+
+    #classes {
+        width: 75%;
+        clear: left;
+        padding: 0;
+        margin-top: 10%;
+    }
+
+    #footer {
+        position: fixed;
+        bottom: 0;
+        height: fit-content;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #text-insert {
+        padding-right: 20px;
+        margin: 0 autox;
+        float: left;
+
+    }
+
+    #content {
+        margin: 0% auto;
+        padding: 0%;
+        width: auto;
+        height: fit-content;
+    }
+
+
+    #benefits {
+        width: 100%;
+        height: fit-content;
+        float: right;
+        margin: 0 auto;
+        padding: auto;
+
+    }
+
+    #about-us {
+        margin: 0% auto;
+        width: 85%;
+        padding-bottom: 30px;
+    }
+
+    #classes {
+        margin-top: 50px;
+        width: 85%;
+        clear: left;
+        padding-top: 80px;
+
+        height: max-content;
+    }
+
+    #footer {
+        position: fixed;
+        bottom: 0;
+        height: fit-content;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #text-insert {
+        position: fixed;
+        left: 50px;
+
+        margin: 0 autox;
+        float: left;
+
+    }
+
+    #content {
+        margin: 0% auto;
+        padding: 0%;
+        width: auto;
+        height: fit-content;
+    }
+
+
+    #benefits {
+        width: 95%;
+        height: fit-content;
+        float: right;
+        margin: 0 10px;
+        padding-left: 80px;
+
+    }
+
+    #about-us {
+        margin: 0% auto;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    #classes {
+        margin-top: 50px;
+        width: 95%;
+        clear: left;
+        padding-top: 300px;
+        padding-left: 60px;
+        padding-bottom: 50px;
+
+        height: max-content;
+    }
+
+    #footer {
+        position: fixed;
+        bottom: 0;
+        height: fit-content;
+        width: 100%;
+        padding: 0;
+    }
 }
