@@ -224,7 +224,7 @@ h1 {
 #footer {
     width: 100%;
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
     height: 100px;
      background-color: #fbccda;
     text-align: center;
