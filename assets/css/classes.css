@@ -79,10 +79,14 @@ h1 {
 table {
     
     border-collapse: collapse;
-    width: 100%;
-
     
+}
+
+.position {
+    margin-left: auto;
+    margin-right: auto;
   }
+  
   
   td, th {
     border: 1px solid #dddddd;
@@ -91,5 +95,7 @@ table {
   }
   
   tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #ecc6d1;
   }
+    
+      tr:hover {background-color: #f2f79a;}
