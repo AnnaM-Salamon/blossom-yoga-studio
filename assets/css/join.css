@@ -72,54 +72,48 @@ h1 {
     color: red;
 }
 
-/* section for content and table*/
 
-.flex-container {
-    width: fit-content;
-    display: flex;
-    flex-direction: row;
-    font-size: 20px;
-    flex-wrap: wrap;
-    align-content: stretch;
 
+/* contact form */
+
+
+input[type=text],
+input[type=tel],
+select,
+textarea {
+    color: rgb(13, 8, 8);
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
-/* table for yoga schedule*/
-
-
-table {
-
-    border-collapse: collapse;
-
-}
-
-.classes,
-.schedule {
-
-    padding-top: 50px;
-    padding-left: 50px;
-    margin-top: 100px;
-
-}
-
-
-.position {
-    margin-left: auto;
-    margin-right: auto;
+input[type=submit] {
+    background-color: #eced80;
+    color: rgb(13, 8, 8);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 
-td,
-th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
+.container {
+    border-radius: 6px;
+    background-color: #f1c0cf;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-tr:nth-child(even) {
-    background-color: #ecc6d1;
-}
 
-tr:hover {
-    background-color: #f2f79a;
+/* position form in the centre */
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
