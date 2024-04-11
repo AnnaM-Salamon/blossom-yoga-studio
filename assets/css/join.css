@@ -10,9 +10,8 @@ body {
     font-family: 'Edu NSW ACT Foundation', sans-serif;
     font-weight: 300;
     color: #003333;
-
-    background-color: #FBF4D7;
-    background-image: linear-gradient(#f2f4c2, rgb(255, 255, 255))
+    background-color: #f2f4c2
+        /* background-image: linear-gradient(#f2f4c2, rgb(255, 255, 255))*/
 }
 
 
@@ -110,7 +109,29 @@ input[type=submit] {
 }
 
 
-/* position form in the centre */
+
+/* flexbox container*/
+
+.contact {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    flex-wrap: wrap;
+    align-content: stretch;
+
+}
+
+#hi {
+
+
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-top: 100px;
+
+}
+
+/*position form in the centre */
 .container {
     position: absolute;
     top: 50%;
