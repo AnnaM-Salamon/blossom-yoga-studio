@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+NSW+ACT+Foundation&');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Edu NSW ACT Foundation', sans-serif;
+    font-weight: 300;
+    color: #003333;
+
+    background-color: #FBF4D7;
+    background-image: linear-gradient(#f2f4c2, rgb(255, 255, 255))
+}
+
+
+
+/* headings and logo */
+
+h1 {
+    font-family: 'Dancing Script', sans-serif;
+    font-weight: 600;
+    word-spacing: 5px;
+    color: #262C43;
+}
+
+#logo {
+    font-size: 300%;
+    float: left;
+    margin-left: 30px;
+    padding-bottom: 30px;
+
+}
+
+/* navigation menu */
+
+#menu,
+#logo {
+    line-height: 75px;
+
+
+}
+
+#menu ul {
+    float: right;
+    font-size: 110%;
+    margin-right: 30px;
+}
+
+#menu li {
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:visited {
+    color: #075A4D;
+}
+
+#menu a:hover {
+    color: #FEB1C8;
+}
+
+#menu a:active {
+    color: red;
+}
+
+
+
+/* footer */
+
+#footer {
+    margin-top: 100px;
+    padding-bottom: 50px;
+
+}
+
+.flex {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    
+}
+
+.people {
+
+    
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-top: 100px;
+
+}
+
+.place {
+
+    margin-top: 75px;
+    padding-bottom: 100px;
+
+
+}
