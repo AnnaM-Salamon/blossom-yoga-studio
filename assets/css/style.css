@@ -7,13 +7,14 @@
 }
 
 body {
+
     font-family: 'Edu NSW ACT Foundation', sans-serif;
     font-weight: 400;
     color: #003333;
     background-color: #f2f4c2
+}
 
-      }
-   /* background-color: #FBF4D7;
+/* background-color: #FBF4D7;
     background-image: linear-gradient(#f2f4c2, rgb(255, 255, 255))*/
 
 
@@ -139,10 +140,11 @@ h1 {
 
 #yoga-benefits {
 
-
+display: flex;
     padding-top: 50px;
     padding-left: 50px;
     margin-top: 100px;
+  
 
 }
 
