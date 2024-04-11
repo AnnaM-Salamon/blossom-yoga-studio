@@ -129,11 +129,13 @@ tr:hover {
 
 
 #social{
+    margin-top: 40px;
     text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    background-color: rgb(209, 179, 184);
 }
 
 #social i {
