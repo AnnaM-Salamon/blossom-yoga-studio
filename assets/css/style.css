@@ -10,10 +10,12 @@ body {
     font-family: 'Edu NSW ACT Foundation', sans-serif;
     font-weight: 400;
     color: #003333;
+    background-color: #f2f4c2
 
-    background-color: #FBF4D7;
-    background-image: linear-gradient(#f2f4c2, rgb(255, 255, 255))
-}
+      }
+   /* background-color: #FBF4D7;
+    background-image: linear-gradient(#f2f4c2, rgb(255, 255, 255))*/
+
 
 /* headings and logo */
 
@@ -240,30 +242,23 @@ h1 {
 /* footer */
 
 
-#footer {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    height: 100px;
-    background-color: #fbccda;
+
+
+/* footer with social media icons */
+
+
+#social {
     text-align: center;
-
-
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
-
-#footer a {
-
-    font-size: 100%;
-    margin: 1%;
+#social i {
+    font-size: 160%;
     padding: 5%;
-    color: #262C43;
-}
-
-#address {
-    position: absolute;
-    left: 20px;
-    font-size: 120%;
+    color: #3a3a3a;
 }
 
 /*

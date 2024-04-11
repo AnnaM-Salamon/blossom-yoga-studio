@@ -123,3 +123,22 @@ tr:nth-child(even) {
 tr:hover {
     background-color: #f2f79a;
 }
+
+
+
+/*footer with social media icons*/
+
+
+#social{
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
