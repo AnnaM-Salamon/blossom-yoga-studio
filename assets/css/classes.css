@@ -72,30 +72,51 @@ h1 {
     color: red;
 }
 
+/* section for content and table*/
 
+.flex-container {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    flex-wrap: wrap;
+    align-content: stretch;
+
+}
 /* table for yoga schedule*/
 
 
 table {
-    
+
     border-collapse: collapse;
-    
+
 }
+.classes, .schedule {
+
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-top: 100px;
+
+}
+
 
 .position {
     margin-left: auto;
     margin-right: auto;
-  }
-  
-  
-  td, th {
+}
+
+
+td,
+th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
-  }
-  
-  tr:nth-child(even) {
+}
+
+tr:nth-child(even) {
     background-color: #ecc6d1;
-  }
-    
-      tr:hover {background-color: #f2f79a;}
+}
+
+tr:hover {
+    background-color: #f2f79a;
+}
