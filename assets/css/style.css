@@ -124,18 +124,36 @@ h1 {
 
 
 /* main content */
+
 #benefits {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    flex-wrap: wrap;
+    align-content: stretch;
+
+}
+
+#yoga-benefits {
+
+
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-top: 100px;
+
+}
+/*.benefits {
     margin: 50px;
     margin-top: 50px;
     height: 200px;
     width: fit-content;
     text-align: left;
-    padding: 10px;
-
+    padding-bottom: 50px;
     border-bottom: 1px solid #003333;
 }
-
-#benefits h2 {
+/*
+ h2 {
     font-weight: 900;
     text-transform: uppercase;
     text-decoration: underline;
@@ -154,8 +172,8 @@ h1 {
 
 
 
-
-/* about us */
+/*
+/* about us 
 
 #content {
     margin: 100px;
@@ -190,7 +208,7 @@ h1 {
 }
 
 
-/* classes */
+/* classes 
 
 #classes {
 
@@ -216,7 +234,7 @@ h1 {
     text-transform: uppercase;
     text-decoration: underline;
     font-size: 150%;
-}
+}*/
 
 /* footer */
 
@@ -246,10 +264,10 @@ h1 {
     left: 20px;
     font-size: 120%;
 }
-
+/*
 /* Media queries */
 
-/* For larger to medium screens size from 1200px wide and down */
+/* For larger to medium screens size from 1200px wide and down 
 @media screen and (max-width: 1200px) {
     #text-insert {
         padding-right: 20px;
