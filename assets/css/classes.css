@@ -80,9 +80,10 @@ h1 {
     font-size: 20px;
     flex-wrap: wrap;
     align-content: stretch;
-  
+
 
 }
+
 /* main content-text */
 
 
@@ -101,7 +102,7 @@ table {
     padding-top: 50px;
     padding-left: 50px;
     margin-top: 100px;
-  
+
 
 }
 
@@ -109,7 +110,7 @@ table {
 .position {
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 
@@ -133,19 +134,19 @@ tr:hover {
 /*footer with social media icons*/
 
 
-#social{
+#social {
     margin-top: 40px;
     text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-  
+
 }
 
 #social i {
     font-size: 160%;
     padding: 5%;
-    color:  #075A4D;
+    color: #075A4D;
 
 }
