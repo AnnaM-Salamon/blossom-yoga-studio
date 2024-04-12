@@ -65,7 +65,9 @@ Blossom Yoga is the perfect site for anyone looking to enhance their wellbeing t
 
 ### Features Left to Implement
 
-- To improve UX create and add 404 page.s
+- To improve UX create and add 404 page.
+- To add more content about competitions and other social events related to yoga and community.
+- To add icons representing a lotus flower or a yoga pose around the whole document.
 
 ## Testing
 ### Validator Testing 
@@ -74,10 +76,14 @@ Blossom Yoga is the perfect site for anyone looking to enhance their wellbeing t
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - Accessibility is satisfactory and tested via Lighthouse in Dev Tools
+
+  [Lighthouse ](media/lighthouse.png)
 
 ### Unfixed Bugs
 
-- The page About us contains two paragraps of text and pictures. I wanted them to be position below the text in a form of responsive box. I suspect I wasn't able to achieve this as the main content on the page(text) is styled with Flexbox. The idea is to restructure the whole page again.
+- The page About us contains two paragraphs of text and pictures. I wanted them to be positioned below the text in the form of a responsive box. I suspect I wasn't able to achieve this as the main content on the page(text) is styled with Flexbox. The idea is to restructure, restyle the whole page again.
+
 
 ## Deployment
 
@@ -87,14 +93,11 @@ Blossom Yoga is the perfect site for anyone looking to enhance their wellbeing t
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+- The live link can be found here - https://annam-salamon.github.io/blossom-yoga-studio/
 
 
 ## Credits 
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+ 
 
 ### Content 
 
