@@ -13,7 +13,7 @@ Blossom Yoga is the perfect site for anyone looking to enhance their wellbeing t
 - __Navigation Bar__
 
   - Featured on all four pages, the full responsive navigation bar includes links  to Home page, About us, Classes, Join us, Find us page and is identical in each page to allow for easy navigation.
-  - This section allows to navigate between pages  by eliminating the need for users to rely on the "back" button . It can  greatly simplify browsing experience.
+  - This section allows to navigate between pages  by eliminating the need for users to rely on the "back" button. It can  greatly simplify browsing experience.
   - Find us link takes the user to Footer with social links.
 
 ![Nav Bar](media/logo_nav_bar.png)
@@ -21,8 +21,7 @@ Blossom Yoga is the perfect site for anyone looking to enhance their wellbeing t
 - __The landing page image__
 
   - The landing page of Blossom Yoga Studio features a photograph with an animated picture of a pink lotus that zooms in over a few seconds. This eye-catching feature captures the user's attention, builds interest, and encourages them to explore more content.
-
-  - The warm and inviting intentions of the studio are highlighted by the dominant pink, yellow, and green colours. 
+  - The warm and inviting intentions of the Studio are highlighted by the dominant pink, yellow, and green colours. 
   - The overlay motto inspires and emphasizes the main goal of Blossom Yoga Studio, which is to connect with nature and achieve inner balance.
 
 ![Landing Page](media/landing_page.png)
@@ -42,7 +41,7 @@ Blossom Yoga is the perfect site for anyone looking to enhance their wellbeing t
 - __About us__
 
  - This section introduces the two primary elements that make up the concept of Blossom Yoga Studio: the people and the place. The creators of the studio, along with the setting, work together to create a distinct and unique experience for the local community who become a part of it.
- - The images presents people in yoga poses in and a relaxed group of people: the teachers with their students.
+ - The images presents people in yoga poses in garden setting and a relaxed, happy group of people: the teachers with their students.
 
 ![About us](media/about_us_info.png )
 
@@ -66,7 +65,7 @@ Blossom Yoga is the perfect site for anyone looking to enhance their wellbeing t
 
 ### Features Left to Implement
 
-- Another feature idea
+- To improve UX create and add 404 page.s
 
 ## Testing
 ### Validator Testing 
@@ -101,8 +100,8 @@ You can break the credits section up into Content and Media, depending on what y
 
 - The text for all pages was created, checked for correctness with a help of[Grammarly] (https://app.grammarly.com/)
 - Instructions on how to construct Class schedule table and Contact form as well as other ideas for styling with css are from [w3schools] (https://www.w3schools.com/)
-- The footer was inspired by [Code InstituteLove Running Essential Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/?child=first)
-- 
+- The Footer and Readme.md  was inspired by [Code InstituteLove Running Essential Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/?child=first) and[Readme Template Love Running](https://github.com/Code-Institute-Solutions/readme-template)
+
 
 ### Media
 
