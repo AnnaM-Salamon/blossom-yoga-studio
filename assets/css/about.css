@@ -107,13 +107,26 @@ h1 {
 
 /* responsive gallery of images*/
 
-.gallery{
-    float: left;
-    margin-right: 10px;
-  }
+.images{
+    display: flex;
+    flex-wrap: wrap;
+}
+  /*  img {
+        float: left;
+        margin-right: 10px;
+      }
+      
+      p {
+        overflow: hidden;
+      }
+}
+   /* float: left;
+    margin-right: 20px;
+    margin-left: 50px;
   
-  p {
-    overflow: hidden;
+  
+  
+    overflow: scroll;
   }
 /*.row {
     

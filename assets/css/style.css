@@ -134,17 +134,18 @@ h1 {
     flex-direction: row;
     font-size: 20px;
     flex-wrap: wrap;
-    align-content: stretch;
+    align-content: center;
+    justify-content: center;
 
 }
 
 #yoga-benefits {
 
-display: flex;
+
     padding-top: 50px;
     padding-left: 50px;
     margin-top: 100px;
-  
+
 
 }
 
