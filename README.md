@@ -108,7 +108,7 @@ Blossom Yoga is the perfect site for anyone looking to enhance their wellbeing t
 
 ### Media
 
-- The photos of Lotus Flower used on landing page and in Favicon creation are from [Unplash](https://unsplash.com/s/photos/lotus-flower?license=free)
+- The photos of Lotus Flower used on landing page and in Favicon creation are from [Unsplash](https://unsplash.com/s/photos/lotus-flower?license=free)
 - The images used for the About us page page were taken from [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/)
 - Favicon was created thanks to [Real Favicon Generator](https://realfavicongenerator.net/)
 
