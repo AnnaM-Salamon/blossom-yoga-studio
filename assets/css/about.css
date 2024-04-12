@@ -161,11 +161,11 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: rgb(209, 179, 184);
+   
 }
 
 #social i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color:  #075A4D;
 }
