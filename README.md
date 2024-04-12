@@ -76,8 +76,7 @@ Blossom Yoga is the perfect site for anyone looking to enhance their wellbeing t
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-  - Accessibility is satisfactory and tested via Lighthouse in Dev Tools
-
+  - Accessibility , performance and SEO is satisfactory and tested via Lighthouse in Dev Tools
   [Lighthouse ](media/lighthouse.png)
 
 ### Unfixed Bugs
@@ -111,6 +110,8 @@ Blossom Yoga is the perfect site for anyone looking to enhance their wellbeing t
 - The photos of Lotus Flower used on landing page and in Favicon creation are from [Unsplash](https://unsplash.com/s/photos/lotus-flower?license=free)
 - The images used for the About us page page were taken from [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/)
 - Favicon was created thanks to [Real Favicon Generator](https://realfavicongenerator.net/)
+
+
 
 
 
