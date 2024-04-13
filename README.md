@@ -68,6 +68,7 @@ Blossom Yoga is the perfect site for anyone looking to enhance their wellbeing t
 - To improve UX create and add 404 page.
 - To add more content about competitions and other social events related to yoga and community.
 - To add icons representing a lotus flower or a yoga pose around the whole document.
+- To imrove responsivness add Media queries 
 
 ## Testing
 ### Validator Testing 
@@ -83,6 +84,7 @@ Blossom Yoga is the perfect site for anyone looking to enhance their wellbeing t
 
 - The page About us contains two paragraphs of text and pictures. I wanted them to be positioned below the text in the form of a responsive box. I suspect I wasn't able to achieve this as the main content on the page(text) is styled with Flexbox. The idea is to restructure, restyle the whole page again.
 
+- The site responds well in various dimensions  despite Media queries not present 
 
 ## Deployment
 
