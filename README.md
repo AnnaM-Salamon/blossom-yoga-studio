@@ -103,14 +103,14 @@ Blossom Yoga is the perfect site for anyone looking to enhance their wellbeing t
 ### Content 
 
 - The text for all pages was created, checked for correctness with a help of[Grammarly] (https://app.grammarly.com/)
-- Instructions on how to construct Class schedule table and Contact form as well as other ideas for styling with css are from [w3schools] (https://www.w3schools.com/)
+- Instructions on how to construct Class schedule table and Contact form as well as 404 error page and other ideas for styling with css are from [w3schools] (https://www.w3schools.com/)
 - The Footer and Readme.md  was inspired by [Code InstituteLove Running Essential Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/?child=first) and[Readme Template Love Running](https://github.com/Code-Institute-Solutions/readme-template)
 
 
 ### Media
 
 - The photos of Lotus Flower used on landing page and in Favicon creation are from [Unsplash](https://unsplash.com/s/photos/lotus-flower?license=free)
-- The images used for the About us page page were taken from [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/)
+- The images used for the About us page, 404 error page were taken from [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/)
 - Favicon was created thanks to [Real Favicon Generator](https://realfavicongenerator.net/)
 
 
