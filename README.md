@@ -59,16 +59,18 @@ Blossom Yoga is the perfect site for anyone looking to enhance their wellbeing t
 - __Contact page__
 
   - This page will allow the users to contact Blossom Yoga Studio. By a friendly and inviting manner asks to submit their name and optional phone number. It allows to leave any comments, suggestions or questions  a potential visitor to the webstite would have. 
+  - The form throws an error. The 404 error page is customised and appears after un unsuccessful form submission. The page contains an image of a frog and lotus flowers. Its light and funny tone informs about the failure to send the form and invites to contact through other social channels. The page style refers to the entire document.
 
 ![Contact](media/contact_form.png)
+![404 error page](media/form_fail.png)
 
 
 ### Features Left to Implement
 
-- To improve UX create and add 404 page.
+- Link find Us with Google Map
+- Resize images in About Us
 - To add more content about competitions and other social events related to yoga and community.
-- To add icons representing a lotus flower or a yoga pose around the whole document.
-- To imrove responsivness add Media queries 
+- To imrpove responsivness add Media queries 
 
 ## Testing
 ### Validator Testing 
@@ -76,14 +78,13 @@ Blossom Yoga is the perfect site for anyone looking to enhance their wellbeing t
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
   - Accessibility , performance and SEO is satisfactory and tested via Lighthouse in Dev Tools
   [Lighthouse ](media/lighthouse.png)
 
 ### Unfixed Bugs
 
-- The page About us contains two paragraphs of text and pictures. I wanted them to be positioned below the text in the form of a responsive box. I suspect I wasn't able to achieve this as the main content on the page(text) is styled with Flexbox. The idea is to restructure, restyle the whole page again.
-
+- The page About us contains two paragraphs of text and pictures. The images need to be resized to improve responsivness.
 - The site responds well in various dimensions  despite Media queries not present 
 
 ## Deployment
@@ -102,9 +103,9 @@ Blossom Yoga is the perfect site for anyone looking to enhance their wellbeing t
 
 ### Content 
 
-- The text for all pages was created, checked for correctness with a help of[Grammarly] (https://app.grammarly.com/)
+- The text for all pages was created, checked for correctness with a help of [Grammarly] (https://app.grammarly.com/)
 - Instructions on how to construct Class schedule table and Contact form as well as 404 error page and other ideas for styling with css are from [w3schools] (https://www.w3schools.com/)
-- The Footer and Readme.md  was inspired by [Code InstituteLove Running Essential Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/?child=first) and[Readme Template Love Running](https://github.com/Code-Institute-Solutions/readme-template)
+- The Footer and Readme.md  was inspired by [Code Institute Love Running Essential Project] (https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/?child=first) and [Readme Template Love Running](https://github.com/Code-Institute-Solutions/readme-template)
 
 
 ### Media
