@@ -103,9 +103,9 @@ Blossom Yoga is the perfect site for anyone looking to enhance their wellbeing t
 
 ### Content 
 
-- The text for all pages was created, checked for correctness with a help of [Grammarly] (https://app.grammarly.com/)
-- Instructions on how to construct Class schedule table and Contact form as well as 404 error page and other ideas for styling with css are from [w3schools] (https://www.w3schools.com/)
-- The Footer and Readme.md  was inspired by [Code Institute Love Running Essential Project] (https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/?child=first) and [Readme Template Love Running](https://github.com/Code-Institute-Solutions/readme-template)
+- The text for all pages was created, checked for correctness with a help of [Grammarly](https://app.grammarly.com)
+- Instructions on how to construct Class schedule table and Contact form as well as 404 error page and other ideas for styling with css are from [w3schools](https://www.w3schools.com/)
+- The Footer and Readme.md  was inspired by [Code Institute Love Running Essential Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/?child=first) and [Readme Template Love Running](https://github.com/Code-Institute-Solutions/readme-template)
 
 
 ### Media
